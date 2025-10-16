@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: auto;
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+header {
+    background-color: #7fffd4;
+    text-align: center;
+    color: #5615be;
+    border-bottom: solid 5px #000000;
+    /*Este es un comentario*/
+    /*dding:30px 20px 80px 10px TOP RIGHT BOTTOM LEFT*/
+    padding: 30px 0;
+    
+}
+
+nav {
+
+background-color: #5615be;
+padding: 30px 20px;
+border-bottom: 5px solid #5615be;
+font-size: 15;
+
+}
+
+nav a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+nav a:hover{
+
+    background-color: #000000;
+
+}
+#bienvenida {
+
+    padding: 30px;
+    text-align: center;
+}
+
+#proyectos{
+    background-color: #7fffd4;
+    padding: 30px 20px;
+    text-align: center;
+}
+.lista-proyectos{
+display: flex;
+padding-top: 20px;
+
+}
+.proyecto{
+    width: 30%;
+    border: solid 2px #5615be;
+    padding: 5px;
+    border-radius:  10px;
+}
+
+.proyecto h3{
+    color:#5615be;
+}
+#competencias {
+
+padding: 30px 30px;
+
+}
+
+#competencias h2 {
+
+padding-bottom: 30px;
+text-align: center;
+
+}
+
+#competencias ul {
+
+    list-style-type: square;
+    display: flex;
+    clear:both;
+}
+
+#competencias ul li{
+
+    background-color: #5615be;
+    color:#7fffd4;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+        #contacto{
+            padding: 30px;
+            border-top: 2px dashed rgb(77, 9, 109);
+        }
+
+        .campos{
+            padding: 10pxb;
+            clear: both;
+            font-size: 16px;
+        }
+
+        .campos label{
+            font-size: 20px;
+        }
+
+        .campos input{
+            font-size: 20px;
+            padding: 5px;
+            border: solid 2px rgb(78, 39, 219);
+            border-radius: 10px;
+            width: 30%;
+        }
+
+        .campos button{
+            padding: 10px;
+            border-radius: 15px;
+            background-color: rgb(19, 5, 97);
+            color: rgb(10, 91, 161);
+            width: 20%;
+            border: none;
+            font-size: 20px;
+        }
+
+
+footer{
+    padding: 30px 30px;
+    background-color: #5615be;
+    color: white;
+    font-size: 14px;
+    border-top: solid 5px firebrick;
+    text-align: center;
+}
